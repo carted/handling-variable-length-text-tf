@@ -23,7 +23,7 @@ from them. We hope you’ll be able to apply them in your own projects as well.
 ## General setup
 
 We’ll be using [this dataset](https://www.kaggle.com/hijest/genre-classification-dataset-imdb) from Kaggle which
-concerns a text classification problem. Specifically, given some description about a movie, we need to predict its
+concerns a text classification problem. Specifically, given some description of a movie, we need to predict its
 genre. Each description consists of multiple sentences and there are 27 unique genres (such as action, adult, adventure,
 animation, biography, comedy, etc.). 
 
@@ -31,8 +31,8 @@ As a disclaimer, our focus is on designing efficient data pipelines for handling
 that can help us reduce compute waste. But we will also see how to use these pipelines to train text classification
 models for completeness.
 
-**Note**: One central them around our code is to be able to process text sequences in the following manner. Padding a
-batch of  sequences with respect to the maximum sequence length of the batch instead of a fixed sequence length. 
+**Note**: One central theme around our code is to be able to process text sequences in the following manner. Padding a
+batch of sequences with respect to the maximum sequence length of the batch instead of a fixed sequence length. 
 
 ## Navigating the notebooks
 
