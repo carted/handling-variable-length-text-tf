@@ -34,7 +34,7 @@ models for completeness.
 **Note**: One central theme around our code is to be able to process text sequences in the following manner. Padding a
 batch of sequences with respect to the maximum sequence length of the batch instead of a fixed sequence length. 
 
-## Navigating the notebooks
+## Navigating through the notebooks
 
 * `smart-batching-shallow-mlp.ipynb`: Shows how to train a text classifier using simple models consisting of
   embeddings, GRUs, and fully-connected layers. 
