@@ -44,7 +44,7 @@ batch of sequences with respect to the maximum sequence length of the batch inst
   * `data-preparation-sentence-splitter.ipynb`: Treats each movie description as a sequence of sentences and 
     serializes them into TFRecords. The corresponding modeling notebook is present at `bert/train-model-split-sentence.ipynb`.
 
-All the results discussed in the above-mentioned article can be found at the following links:
+All the results discussed in the above-mentioned articles can be found at the following links:
 
 * https://wandb.ai/carted/smart-batching-simpler-models (simpler models)
 * https://wandb.ai/carted/batching-experiments (BERT models)
