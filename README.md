@@ -42,7 +42,7 @@ batch of sequences with respect to the maximum sequence length of the batch inst
   * `data-preparation.ipynb`: Shows how to prepare text data into TensorFlow Records (TFRecords) with tokenization. The
     corresponding modeling notebook is present at `bert/train-vanilla-bert.ipynb`.
   * `data-preparation-sentence-splitter.ipynb`: Treats each movie description as a sequence of sentences and 
-    serializes them into TFRecords. The corresponding modeling notebook is present at `bert/train-cmlm-bert.ipynb`.
+    serializes them into TFRecords. The corresponding modeling notebook is present at `bert/train-model-split-sentence.ipynb`.
 
 All the results discussed in the above-mentioned article can be found at the following links:
 
