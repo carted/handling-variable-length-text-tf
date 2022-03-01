@@ -6,7 +6,7 @@ This repository code for the following series of blog posts:
 * Handling variable-length text sequences in TensorFlow (Part II)
 * Handling variable-length text sequences in TensorFlow (Part III)
 
-We provide code in the form of Jupyter Notebook so that you can experiment with the methods without much setup. 
+We provide code in the form of Jupyter Notebook so that you can experiment with the methods interactively. 
 
 ## What is it about?
 
@@ -15,7 +15,7 @@ of words, and sometimes even as sequences of sentences, and so on. Now, for mach
 text sequences in batches the batches need to have uniform-length sequences. However, text sequences can come in varying
 lengths. 
 
-In this article, we will go over different strategies to handle variable-length sequences in TensorFlow with a focus
+In this project, we implement different strategies to handle variable-length sequences in TensorFlow with a focus
 on performance. We will discuss the pros and cons of each strategy along with their implementations in TensorFlow.
 We have successfully applied some of these strategies to the large-scale data here at Carted and have greatly benefited
 from them. We hope you’ll be able to apply them in your own projects as well.
