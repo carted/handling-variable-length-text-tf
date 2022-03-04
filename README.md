@@ -1,6 +1,6 @@
 # Handling variable-length text sequences in TensorFlow
 
-This repository code for the following series of blog posts:
+This repository hosts code for the following series of blog posts:
 
 * Handling variable-length text sequences in TensorFlow (Part I)
 * Handling variable-length text sequences in TensorFlow (Part II)
