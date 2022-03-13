@@ -18,7 +18,12 @@ lengths.
 In this project, we implement different strategies to handle variable-length sequences in TensorFlow with a focus
 on performance. We will discuss the pros and cons of each strategy along with their implementations in TensorFlow.
 We have successfully applied some of these strategies to the large-scale data here at Carted and have greatly benefited
-from them. We hope you’ll be able to apply them in your own projects as well.
+from them. We hope you’ll be able to apply them in your own projects as well. Below is a side-by-side comparison
+of how efficient handling of variable-length sequences can boost up the model training time:
+
+<center>
+	<img src="assets/performance.png"/>
+</center>
 
 ## General setup
 
@@ -36,6 +41,8 @@ batch of sequences with respect to the maximum sequence length of the batch inst
 
 ## Navigating through the notebooks
 
+* `bigram-tfidf-shallow-mlp.ipynb`: Shows how to use bigrams along with TF-IDF vectorization to train a simple
+  test classification model with fully-connected layers.
 * `smart-batching-shallow-mlp.ipynb`: Shows how to train a text classifier using simple models consisting of
   embeddings, GRUs, and fully-connected layers. 
 * `bert/`
