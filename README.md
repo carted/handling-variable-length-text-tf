@@ -2,9 +2,9 @@
 
 This repository hosts code for the following series of blog posts:
 
-* [Variable-Length Sequences in TensorFlow Part 1: Optimizing Sequence Padding](https://www.carted.com/blog/variable-length-sequences-in-tensorflow-part-1/)
-* [Variable-Length Sequences in TensorFlow Part 1: Training with a Simple BERT Model](https://www.carted.com/blog/variable-length-sequences-in-tensorflow-part-2/)
-* Variable-Length Sequences in TensorFlow Part 1: Using a Sentence-Conditioned BERT Encoder (coming soon)
+* [Variable-Length Sequences in TensorFlow Part 1: Optimizing Sequence Padding](https://car.td/3d0891)
+* [Variable-Length Sequences in TensorFlow Part 1: Training with a Simple BERT Model](https://car.td/8oa)
+* [Variable-Length Sequences in TensorFlow Part 1: Using a Sentence-Conditioned BERT Encoder](https://car.td/q0c)
 
 We provide code in the form of Jupyter Notebook so that you can experiment with the methods interactively. 
 
@@ -22,7 +22,7 @@ from them. We hope you’ll be able to apply them in your own projects as well. 
 of how efficient handling of variable-length sequences can boost up the model training time:
 
 <center>
-	<img src="assets/performance.png"/>
+    <img src="assets/performance.png"/>
 </center>
 
 ## General setup
