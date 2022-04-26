@@ -3,8 +3,8 @@
 This repository hosts code for the following series of blog posts:
 
 * [Variable-Length Sequences in TensorFlow Part 1: Optimizing Sequence Padding](https://car.td/3d0891)
-* [Variable-Length Sequences in TensorFlow Part 1: Training with a Simple BERT Model](https://car.td/8oa)
-* [Variable-Length Sequences in TensorFlow Part 1: Using a Sentence-Conditioned BERT Encoder](https://car.td/q0c)
+* [Variable-Length Sequences in TensorFlow Part 2: Training with a Simple BERT Model](https://car.td/8oa)
+* [Variable-Length Sequences in TensorFlow Part 3: Using a Sentence-Conditioned BERT Encoder](https://car.td/q0c)
 
 We provide code in the form of Jupyter Notebook so that you can experiment with the methods interactively. 
 
